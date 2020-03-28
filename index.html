@@ -1,55 +1,76 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta charset="UTF-8">
-  <title>Pequeñas Huellitas</title>
-  <style>
-    h1 {
-      font-family: sans-serif;
-      padding: 100px;
-    }
-    .container {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, 250px);
-      grid-gap: 5px;
-      justify-content: center;
-    }
-    .item {
-      border-radius: 5px;
-      padding: 10px;
-      background: #f2f2f2;
-    }
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8" />
+    <title>Pequeñas Huellitas</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <h1>Pequeñas Huellitas</h1>
+    <div class="container">
+      <div class="item level-1">
+        <img src="assets/images/animal-4890910.jpg" alt="" />
+      </div>
+      <div class="item level-2">
+        <img
+          src="assets/images/animal-animal-portrait-blurred-background-bokeh-1149826.jpg"
+          alt=""
+        />
+      </div>
+      <div class="item level-2">
+        <img
+          src="assets/images/animal-animal-portrait-blurred-background-bokeh-1149826.jpg"
+          alt=""
+        />
+      </div>
+      <div class="item level-2">
+        <img
+          src="assets/images/animal-animal-portrait-blurred-background-bokeh-1149826.jpg"
+          alt=""
+        />
+      </div>
+      <div class="item level-3">
+        <img
+          src="assets/images/black-dog-sitting-on-concrete-surface-2381440 (1).jpg"
+          alt=""
+        />
+      </div>
+      <div class="item level-3">
+        <img src="assets/images/black-short-coated-dog-3818820.jpg" alt="" />
+      </div>
+    </div>
+    <footer>
+      <div class="Footer-main">
+        <div class="Footer-title">
+          <h3>Join Our Newsletter</h3>
+        </div>
+        <div class="Footer-text">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta,
+            cumque repudiandae in possimus corrupti, eum vitae adipisci
+            voluptates eos expedita quod modi repellendus facilis sed fuga
+            officia suscipit rem quibusdam!
+          </p>
+        </div>
 
-    .item img {
-      max-width: 100%
-    }
-    .level-1 {
-      grid-row-end: span 1;
-    }
+        <form class="Footer-form">
+          <div class="Footer-form-main">
+            <input type="text" placeholder="Email" class="Footer-input" />
+            <button type="submit" class="Footer-btn">SUBSCRIBE</button>
+          </div>
+        </form>
 
-    .level-2 {
-      grid-row-end: span 1;
-    }
-    .level-3 {
-      grid-row-end: span 1;
-    }
-  </style>
-</head>
-<body>
-  <h1>Pequeñas Huellitas</h1>
-  <div class="container">
-    <div class="item level-1">
-      <img src="assets/images/animal-4890910.jpg" alt="">
-    </div>
-    <div class="item level-2">
-      <img src="assets/images/animal-animal-portrait-blurred-background-bokeh-1149826.jpg" alt="">
-    </div>
-    <div class="item level-3">
-      <img src="assets/images/black-dog-sitting-on-concrete-surface-2381440 (1).jpg" alt="">
-    </div>
-    <div class="item level-3">
-      <img src="assets/images/black-short-coated-dog-3818820.jpg" alt="">
-    </div>
-  </div>
-</body>
+        <div class="Footer-social">
+          <span class="icon-facebook icon-social"></span>
+          <span class="icon-twitter icon-social"></span>
+          <span class="icon-instagram icon-social"></span>
+          <span class="icon-youtube icon-social"></span>
+          <span class="icon-google-plus icon-social"></span>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
