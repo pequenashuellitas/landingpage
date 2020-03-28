@@ -1,55 +1,79 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta charset="UTF-8">
-  <title>Pequeñas Huellitas</title>
-  <style>
-    h1 {
-      font-family: sans-serif;
-      padding: 100px;
-    }
-    .container {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, 250px);
-      grid-gap: 5px;
-      justify-content: center;
-    }
-    .item {
-      border-radius: 5px;
-      padding: 10px;
-      background: #f2f2f2;
-    }
+<html lang="en">
 
-    .item img {
-      max-width: 100%
-    }
-    .level-1 {
-      grid-row-end: span 1;
-    }
-
-    .level-2 {
-      grid-row-end: span 1;
-    }
-    .level-3 {
-      grid-row-end: span 1;
-    }
-  </style>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>Pequeñas Huellitas</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <style>
+        .featured-container h1 {
+            font-family: sans-serif;
+            padding: 100px;
+        }
+        
+        .featured-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 250px);
+            grid-gap: 5px;
+            justify-content: center;
+        }
+        
+        .item {
+            border-radius: 5px;
+            padding: 10px;
+            background: #f2f2f2;
+        }
+        
+        .item img {
+            max-width: 100%
+        }
+        
+        .level-1 {
+            grid-row-end: span 1;
+        }
+        
+        .level-2 {
+            grid-row-end: span 1;
+        }
+        
+        .level-3 {
+            grid-row-end: span 1;
+        }
+    </style>
 </head>
+
 <body>
-  <h1>Pequeñas Huellitas</h1>
-  <div class="container">
-    <div class="item level-1">
-      <img src="assets/images/animal-4890910.jpg" alt="">
+    <section class="hero">
+        <div class="container">
+            <div class="hero-container">
+                <h1 class="hero-title">Pequeñas Huellitas</h1>
+                <p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius modi quas quo aut repellat nemo magnam reprehenderit officiis incidunt iusto, facilis et, quis laudantium aliquid quaerat deserunt consequatur quibusdam autem?</p>
+                <div class="hero-actions">
+                    <button class="btn btn-primary">Adopt an Animal</button>
+                    <button class="btn btn-secondary">Make a donation</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h1>Pequeñas Huellitas</h1>
+    <div class="featured">
+        <div class="featured-container">
+            <div class="item level-1">
+                <img src="assets/images/animal-4890910.jpg" alt="">
+            </div>
+            <div class="item level-2">
+                <img src="assets/images/animal-animal-portrait-blurred-background-bokeh-1149826.jpg" alt="">
+            </div>
+            <div class="item level-3">
+                <img src="assets/images/black-dog-sitting-on-concrete-surface-2381440 (1).jpg" alt="">
+            </div>
+            <div class="item level-3">
+                <img src="assets/images/black-short-coated-dog-3818820.jpg" alt="">
+            </div>
+        </div>
     </div>
-    <div class="item level-2">
-      <img src="assets/images/animal-animal-portrait-blurred-background-bokeh-1149826.jpg" alt="">
-    </div>
-    <div class="item level-3">
-      <img src="assets/images/black-dog-sitting-on-concrete-surface-2381440 (1).jpg" alt="">
-    </div>
-    <div class="item level-3">
-      <img src="assets/images/black-short-coated-dog-3818820.jpg" alt="">
-    </div>
-  </div>
+
 </body>
+
 </html>

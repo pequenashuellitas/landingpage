@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.btn {
+    border: 0;
+    border-radius: 32px;
+    padding: 14px 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn.btn-primary {
+    background-color: red;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.hero {
+    width: 100%;
+    padding: 5rem 0;
+    background-image: url(./images/dog-2856570.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero .hero-container {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.hero .hero-container>* {
+    margin-bottom: 16px;
+}
+
+.hero .hero-container>*:last-child {
+    margin-bottom: 0;
+}
+
+.hero .hero-container .hero-title {
+    font-size: 2rem;
+}
+
+.hero .hero-container .hero-description {
+    letter-spacing: 2px;
+}
+
+.hero .hero-container .hero-actions button:first-child {
+    margin-right: 16px;
+}
+
+@media screen and (min-width: 600px) {
+    .hero {
+        padding: 7rem 0;
+    }
+    .hero .hero-container {
+        margin-left: 0;
+    }
+}
